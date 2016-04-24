@@ -32,7 +32,7 @@ public class Open extends IntentService {
 
         String html = TC.getAccessToken(numb, pu, clientId, clientSecret, userId, kid, "open");
 
-        flash(html);
+        flash(html); //显示
 
     }
 
